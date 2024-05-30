@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useAlert } from 'react-alert';
 import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Loading from './layouts/Loading';
 import MetaData from './layouts/MetaData';
 import { clearErrors, loginUser } from '../redux/action/UserAction';
